@@ -1,0 +1,23 @@
+
+body {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  
+  #bars-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bar {
+    margin: 0 2px;
+    background-color: blue;
+    display: inline-block;
+  }
+  
+  
+  

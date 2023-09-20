@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div>
+    <button onclick="generateRandomArray()">Randomize Array</button>
+    <button onclick="applySorting('insertion')">Insertion Sort</button>
+    <button onclick="applySorting('selection')">Selection Sort</button>
+    <button onclick="applySorting('quick')">Quick Sort</button>
+    <button onclick="applySorting('merge')">Merge Sort</button>
+    <button onclick="changeSize()">Change Size</button>
+    <button onclick = " applySorting('quick') ">click</button>
+  </div>
+  <div id="bars-container">
+    <!-- This is where you'll dynamically generate bars -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
